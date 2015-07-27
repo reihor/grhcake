@@ -35,6 +35,7 @@ public class TableCreator {
 					Annotation[] anns = field.getDeclaredAnnotations();
 					if(anns.length<1)
 						continue;// 表里没有字段
+					//整型字段
 					if(anns[0] instanceof SQLInteger){
 						SQLInteger sInt = (SQLInteger) anns[0];
 						if(sInt.name().length()<1)
@@ -43,6 +44,7 @@ public class TableCreator {
 							columnName = sInt.name();
 						columnDefs.add(columnName+" INT"+getConstraints(sInt.constraints()));
 					}
+					//字符型字段
 					if(anns[0] instanceof SQLString){
 						SQLString sString = (SQLString) anns[0];
 						if(sString.name().length()<1)
