@@ -1,4 +1,4 @@
-package com.cake.core.reflect2;
+package com.cake.core.reflect.test2;
 /**
  * 
  * @author horsttop
