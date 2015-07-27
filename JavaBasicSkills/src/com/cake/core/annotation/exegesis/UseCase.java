@@ -1,4 +1,4 @@
-package com.cake.core.annotation.test1;
+package com.cake.core.annotation.exegesis;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
