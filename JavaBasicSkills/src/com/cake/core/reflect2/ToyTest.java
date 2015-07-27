@@ -11,6 +11,7 @@ public class ToyTest {
 		System.out.printf("ToyTest: Canonical name: %s.\n",cc.getCanonicalName());
 	}
 	public static void main(String[] args) {
+		//泛化
 		Class<?> c = null;
 		try {
 			c = Class.forName("com.cake.core.reflect2.FancyToy");//全名
