@@ -7,7 +7,7 @@ package com.cake.core.arithmetic.practise;
 public class YHTriangle {
 	
 	public static void main(String[] args) {
-		validate(9);
+		validate(50);
 	}
 	private static void validate(int maxLines) {
 		//第一行和第二行是输出基础
